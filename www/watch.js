@@ -30,4 +30,10 @@ Watch.checkAppContext = function(successCallback, errorCallback) {
 	exec(successCallback, errorCallback, "Watch", "checkAppContext", []);
 }
 
+
+Watch.updateComplication = function(object,successCallback, errorCallback) {
+    var payload = JSON.stringify(object);
+    exec(successCallback, errorCallback, "Watch", "updateComplication", [payload]);
+}
+
 module.exports = Watch;
