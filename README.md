@@ -1,3 +1,5 @@
+# Moved to AspireVC organization
+
 # cordova-plugin-watch-connectivity
 
 [![npm version](https://badge.fury.io/js/cordova-plugin-watch-connectivity.svg)](https://badge.fury.io/js/cordova-plugin-watch-connectivity)
